@@ -1,12 +1,11 @@
-# How to deploy a Dash-R app to Heroku
-
-This repo contains the necessary files for deploying a Dash-R app to Heroku.
-The deployed app is hosted here https://dashr-heroku-deployment-demo.herokuapp.com/.
+ 532-ia2
+This repo contains the code of DSCI 532-IA2
+The deployed app is hosted here https://dsci-532-maidana-ia2.herokuapp.com/.
 
 Steps to reproduce:
 
-1. `git clone git@github.com:UBC-MDS/dashr-heroku-deployment-demo.git`
-2. `cd dashr-heroku-deployment-demo`
+1. `git clone https://github.com/mmaidana24318/532-ia2.git`
+2. `cd 532-ia2`
 3. `heroku create --stack container your-heroku-site`
 4. `git push heroku main`
 5. Wait ~15 min for the build to finish.
